@@ -7,7 +7,7 @@ It uses .NET Core and the [itext7-dotnet](https://github.com/itext/itext7-dotnet
 ## Usage
 
 ```
-Usage: PDFOCGtool [options]
+Usage: pdfocgtool [options]
 
 Options:
   -?|-h|--help        Show help information
@@ -23,8 +23,8 @@ Options:
 ### Linux
 ```bash
 apt install dotnet-sdk-2.2
-git clone https://github.com/freddy36/pdfogctool.git
-cd pdfogctool
+git clone https://github.com/freddy36/pdfocgtool.git
+cd pdfocgtool
 dotnet publish PDFOCGtool -f netcoreapp2.2 --self-contained -r linux-x64 -c Debug
 
 ./PDFOCGtool/bin/Debug/netcoreapp2.2/linux-x64/pdfocgtool --help
