@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <StartupObject>PDFOCGtool.PDFOCGtool</StartupObject>
+    <Version>0.0.1</Version>
+    <AssemblyVersion>0.0.0.1</AssemblyVersion>
+    <FileVersion>0.0.0.1</FileVersion>
+    <AssemblyName>pdfocgtool</AssemblyName>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageProjectUrl>https://github.com/freddy36/pdfocgtool</PackageProjectUrl>
+    <PackageLicenseUrl>GNU Affero General Public License v3.0</PackageLicenseUrl>
+    <Authors>Frederik Kriewitz</Authors>
+    <Company />
+    <Description>A simple tool to modify Optional Content Group (OCG) realted options of PDF files.</Description>
+    <Copyright>2019</Copyright>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="itext7" Version="7.1.4" />
+    <PackageReference Include="Microsoft.Extensions.CommandLineUtils" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>
